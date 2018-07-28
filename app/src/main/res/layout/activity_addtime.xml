@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AddTimeActivity" >
+
+    <LinearLayout
+        android:id="@+id/numberpicker"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <NumberPicker
+            android:id="@+id/hourPicker"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            />
+
+        <NumberPicker
+            android:id="@+id/minutePicker"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_below="@+id/numberpicker">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hour"
+            android:textSize="30dp"
+            android:layout_marginLeft="80dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="minute"
+            android:textSize="30dp"
+            android:layout_marginLeft="85dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@+id/description"
+        android:id="@+id/addtime"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Add time"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

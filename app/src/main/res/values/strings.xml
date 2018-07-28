@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BearBearPark</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_scan">Scan code</string>
+    <string name="title_addTime">Add Time</string>
+    <string name="title_location">Location</string>
+    <string name="title_account">Account</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="success_toast">Successful Add Time!</string>
+    <string name="unsuccess_toast">Something went wrong!</string>
+</resources>
